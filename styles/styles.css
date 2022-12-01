@@ -341,16 +341,13 @@ img {
 
 /* ---------------------------------------projects ---------------------------------------*/
 
-/* .filters {
+.filters {
   display: flex;
   justify-content: center;
   margin-top: 94px;
   margin-bottom: 56px;
-} */
-
-.filters {
-  display: flex;
 }
+
 
 .projects-items:not(:last-child){
   margin-left: 8px;
