@@ -186,14 +186,18 @@ img {
   margin-left: auto;
   margin-right: auto;
   padding-top: 200px;
+  padding-bottom: 200px;
   text-align: center;
   width: 1600px;
-  height: 600px;
+ 
   background: var(--hero-color);
 }
 .hero-title {
+  margin-top: 0;
   margin-bottom: 30px;
-
+  margin-left: auto;
+  margin-right: auto;
+  width: 696px;
   font-weight: 900;
   font-size: 44px;
   line-height: 1.36;
@@ -225,11 +229,13 @@ img {
 
 /* ---------------------------------------Особенности--------------------------------------- */
 
+.features {
+  padding-top: 94px;
+}
 
 .features .list {
   display: flex;
-  padding-top: 94px;
- }
+  }
 
 
 .features .list-title {
@@ -260,9 +266,13 @@ img {
 
 /* ---------------------------------------Занятость--------------------------------------- */
 
+.study {
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
+
 .study-list {
   display: flex;
-  padding-bottom: 94px;
 }
 
 .study-item {
@@ -274,8 +284,7 @@ img {
 }
 
 .section-title  {
-  padding-top: 118px;
-  padding-bottom: 50px;
+  margin-bottom: 50px;
   font-weight: 700;
   font-size: 36px;
   line-height: 1.2;
@@ -289,15 +298,15 @@ img {
 
 .team {
   background-color: #f5f4fa;
-  /* margin-top: 94px; */
+
   margin-left: auto;
   margin-right: auto;
-  width: 1600px;
+  padding-top: 94px;
+  padding-bottom: 94px;
 } 
 
 .team-title {
-  padding-bottom: 50px;
-  padding-top: 94px;
+  margin-bottom: 50px;
   font-size: 36px;
   line-height: 1.2;
   letter-spacing: 0.03em;
@@ -306,8 +315,7 @@ img {
 }
 .team-list {
   display: flex;
-  padding-bottom: 94px;
-}
+ }
 .team-item {
   flex-basis: calc((100% - 90px) / 4);
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
@@ -320,8 +328,12 @@ img {
   margin-right: 30px;
 }
 
+.person-description {
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
 .name {
-  margin-top: 30px;
   margin-bottom: 10px;
   font-weight: 500;
   font-size: 16px;
@@ -332,7 +344,6 @@ img {
 }
 
 .profa {
-  margin-bottom: 30px;
   font-weight: 400;
   font-size: 16px;
   line-height: 1.2;
@@ -343,11 +354,14 @@ img {
 
 /* ---------------------------------------projects ---------------------------------------*/
 
+.main-portfolio {
+  padding: 60px 0;
+}
+
 .filters {
   display: flex;
   justify-content: center;
   align-items: stretch;
-  margin-top: 94px;
   margin-bottom: 56px;
  }
 
@@ -386,7 +400,6 @@ img {
 .gallery {
   display: flex;
   flex-wrap: wrap;
-  margin-bottom: 94px;
   }
 
 .gallery-item {
@@ -405,9 +418,6 @@ img {
 }
 
 .gallery-title {
-  margin-bottom: 4px;
-  padding-top: 20px;
-  padding-left: 24px;
   font-size: 18px;
   line-height: 2;
   letter-spacing: 0.06em;
@@ -415,8 +425,6 @@ img {
 }
 
 .gallery-text {
-  padding-bottom: 20px;
-  padding-left: 24px;
   padding-right: 24px;
   font-weight: 400;
   font-size: 16px;
@@ -426,33 +434,46 @@ img {
 }
 
 .description {
-  border: 1px solid #eeeeee;
+  padding: 20px 24px;
+  border-right-width: 1px;
+  border-right-style: solid;
+  border-right-color: #eeeeee;
+  border-bottom-width: 1px;
+  border-bottom-style: solid;
+  border-bottom-color: #eeeeee;
+  border-left-width: 1px;
+  border-left-style: solid;
+  border-left-color: #eeeeee;
 }
 
 /* ---------------------------------------подвал--------------------------------------- */
 
 .footer {
+  padding: 60px 0;
   margin-left: auto;
   margin-right: auto;
-  width: 1600px;
   background: var(--hero-color);
-}
-
-.footer .container {
-  padding: 60px 0px;
 }
 
 .footer-studio {
   color: var(--light-text-color);
 }
 
+.address {
+  margin-top: 20px;
+}
+
 .address-contact {
+  margin-bottom: 9px;
   font-style: normal;
-  font-weight: 400;
   font-size: 14px;
   line-height: 2;
-  color: var(--accent-color);
+  color: var(--light-text-color);
   text-decoration: none;
+}
+
+.footer-item .address-contact{
+  color: var(--accent-color);
 }
 
 .address-contact:hover,
