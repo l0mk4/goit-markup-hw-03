@@ -464,16 +464,23 @@ img {
 }
 
 .address-contact {
-  margin-bottom: 9px;
   font-style: normal;
   font-size: 14px;
-  line-height: 2;
-  color: var(--light-text-color);
+  line-height: 1.15;
+  /* color: var(--light-text-color); */
   text-decoration: none;
 }
 
+.footer-item {
+  margin-bottom: 9px;
+}
+
+.address-contact .map {
+  color: var(--light-text-color);
+}
+
 .footer-item .address-contact{
-  color: var(--accent-color);
+    color: var(--accent-color);
 }
 
 .address-contact:hover,
