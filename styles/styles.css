@@ -108,10 +108,12 @@ img {
 /* ---------------------------------------site nav--------------------------------------- */
 
 
-.main-nav {
+.header-nav {
   display: flex;
   align-items: center;
-  }
+  margin-right: auto;
+} 
+
 
 .site-nav {
   display: flex;
@@ -355,7 +357,7 @@ img {
 /* ---------------------------------------projects ---------------------------------------*/
 
 .main-portfolio {
-  padding: 60px 0;
+  padding: 94px 0;
 }
 
 .filters {
@@ -418,6 +420,7 @@ img {
 }
 
 .gallery-title {
+  margin-bottom: 4px;
   font-size: 18px;
   line-height: 2;
   letter-spacing: 0.06em;
@@ -425,8 +428,6 @@ img {
 }
 
 .gallery-text {
-  padding-right: 24px;
-  font-weight: 400;
   font-size: 16px;
   line-height: 2;
   letter-spacing: 0.03em;
@@ -471,7 +472,8 @@ img {
   text-decoration: none;
 }
 
-.footer-item {
+
+.footer-item:not(:last-child) {
   margin-bottom: 9px;
 }
 
