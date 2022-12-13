@@ -404,6 +404,10 @@ img {
   flex-wrap: wrap;
   }
 
+.gallery-link {
+  text-decoration: none;
+}
+
 .gallery-item {
   width: 370px;
   margin-bottom: 30px;
@@ -424,6 +428,7 @@ img {
   font-size: 18px;
   line-height: 2;
   letter-spacing: 0.06em;
+  text-decoration: none;
   color: var(--secondary-text-color);
 }
 
